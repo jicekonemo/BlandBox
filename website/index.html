@@ -10,10 +10,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/js/select2.min.js"></script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Slarmoo's Box</title>
-    <meta name="application-name" content="Slarmoo's Box" />
-    <meta name="apple-mobile-web-app-title" content="Slarmoo's Box">
-    <meta name="description" content="Slarmoo's Box is a mod of Ultrabox that aims to advance Beepbox's capabilities." />
+    <title>BlandBox</title>
+    <meta name="application-name" content="BlandBox" />
+    <meta name="apple-mobile-web-app-title" content="BlandBox">
+    <meta name="description" content="BlandBox is a mod of Slarmoo's Box that aims to make everything as boring as possible." />
     <meta name="keywords" content="chiptune, instrumental, music, song, melody, composition, tool, free, online, square wave, NES, NSF, slarmoosbox, ultrabox, beepbox, jummbox, pandorasbox, modbox, sandbox, goldbox, wackybox, todbox, slarmoo, slarmoos" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -30,10 +30,10 @@
     <style type="text/css">
 
         html {
-            background: var(--page-margin, black);
+            background: #333355;
             overflow-x: hidden;
             font-size: large;
-            font-family: 'B612', sans-serif;
+            font-family: 'monospace', sans-serif;
             line-height: 1.3;
             color: var(--primary-text, white);
         }
@@ -50,7 +50,7 @@
         #beepboxEditorContainer {
             min-height: 645px;
             overflow: auto;
-            background: var(--editor-background, black);
+            background: #5555aa;
             width: 100%;
 			max-width: 710px;
             padding-left: 30px;
@@ -59,7 +59,7 @@
 
         #text-content {
             overflow: auto;
-            background: var(--editor-background, black);
+            background: black;
             width: 100%;
 			max-width: 710px;
             padding-left: 30px;
@@ -166,19 +166,20 @@
     </script>
     <div id="beepboxEditorContainer">
         <noscript>
-            Sorry, Slarmoo's Box requires a JavaScript-enabled browser.
+            Sorry, BlandBox, despite being as boring as possible, still requires a JavaScript-enabled browser.
         </noscript>
     </div>
     <div id="text-content">
         <section>
 
             <h1>
-                <font>Slarmoo's Box</font>
+                <font>BlandBox</font>
                 <span id="goldboxPlant" style="display: inline; color:#62a13b"></span>
                 <!-- <span id="goldboxPlant" style="display: inline; color: var(--plant-color, var(--link-accent, #62a13b));"></span> -->
             </h1>
             
             <p id="introduction">
+				BlandBox is a modification of Slarmoo's Box that aims to make everything as boring as possible. <br>
                 Slarmoo's Box is a mod of Ultrabox that aims to advance Beepbox's capabilities. <br>
                 UltraBox is a mod first envisioned by Neptendo and made possible by contributing community members (see <a href="./credits.html">credits</a>).<br>
                 It takes elements from most of the beepbox mods available and puts them in one convenient package.
@@ -189,7 +190,7 @@
                 When you are satisfied with your song, just copy and paste the URL to save and share your song!
             </p> -->
             <p>
-                If you have any questions, please visit the <a href="./faq.html">FAQ</a>. Visit the <a href="./patch_notes.html">patch notes</a> to see the latest changes made.
+                If you have any questions, please visit the <a href="./faq.html">FAQ</a>. Visit the <a href="./patch_notes.html">patch notes</a> to see the latest changes made. These link to Slarmoo's Box, though, since BlandBox only makes UI changes.
                 <img id="Hotdog" src="" width="500" height="333" onclick="changeHotdogSize()" />
             </p>
     <div class="donation">
@@ -200,11 +201,14 @@
             <input type="hidden" name="currency_code" value="USD" />
             <input type="submit" name="submit" value="Paypal"/>
         </form>
-        <br/>
+        <!-- <br/>    what the-? -->
+		<br>
         Additionally, Slarmoo's Box takes a lot of time to make and update. If you have found it valuable and are able to do so, please consider donating to Slarmoo here: 
         <form action="https://www.paypal.com/donate/?hosted_button_id=BMLD7HPKFR6NG" method="post" target="_blank">
             <input type="submit" name="submit" value="Paypal" />
         </form>
+		<br>
+		BlandBox, on top of not even having a place for money to be donated to, does not deserve any donations as it is very easy to develop. If you would like to donate, please do so with Slarmoo, who added all of these useful features.
     </div>
         </section>
 
@@ -215,30 +219,31 @@
                         Instructions
                     </h2>
                     <p>
-                        You can add or remove notes by clicking on the gray rows at the top.
-                        Slarmoo's Box automatically plays the notes out loud for you. Try it!
+                        Add or remove notes by clicking in the box above.
+                        The notes will play out loud upon placement.
 		
                     </p>
                     <p>
-                        Notes go into patterns, and you can edit one pattern at a time.
-                        Those numbered boxes at the bottom of the editor are the different patterns you can edit.
+                        You may edit one pattern at a time (which by the way, contain notes).
+                        Patterns are signified by the small numbered boxes.
                         <span id="bar-editing">
                             Click the boxes to move to a different part of the song, or click the arrows on the currently selected box to swap which pattern is played during that part of the song.
                         </span>
                     </p>
                     <p>
-                        Slarmoo's Box can play several rows of patterns simultaneously, and each row has its own set of patterns.
-                        Most rows can play melodies or harmonies, but the bottom row is for drums.
+                        Multiple patters may play at once (in coloums), and they are all unique.
+                        Rows of patterns can be different types: Melody, Drums, or Mods. The amount of channels in each category can be changed, although they are stacked on top of eachother in that order.
                     </p>
                     <p>
                         All song data is contained in the URL at the top of your browser.
                         When you make changes to the song, the URL is updated to reflect your changes.
-                        When you are satisfied with your song, just copy and paste the URL to save and share your song!
+                        When you are satisfied with your song, just copy and paste the URL to save and share your song.
+						You may also chose the "...shorten song URL" option in the file menu to get a much shorter URL.
                     </p>
 
                     <div id="keyboard-instructions">
                         <p>
-                            When Slarmoo's Box has focus (click on its interface above), you can use these keyboard shortcuts: <br />
+                            When BlandBox has focus (click on its interface above), you can use these keyboard shortcuts: <br />
                         </p>
                         <ul>
                             <li><b>Spacebar</b>: play or pause the song</li>
@@ -290,7 +295,7 @@
                             <li><b>Ctrl S</b>: shorten song player link</li>
                             <li><b>C</b>: copy link</li>
                         </ul>
-                        <p>These are just a few shortcuts, check Slarmoo's Box's edit menu for more!</p>
+                        <p>These are only a fraction of the existing shortcuts. Check out the edit menu for even more...</p>
                     </div>
                     <p>
                         In the note pattern editor, you can click and drag horizontally on a note to adjust its duration.
@@ -309,13 +314,13 @@
 
                     </p>
                     <p>
-                        Slarmoo's Box has many more features.
-                        Try playing with the buttons and menus on the right side to find out what it can do!
+                        BlandBox has many more features.
+                        Try playing with the buttons and menus on the right side to find out what it can do.
                         You can also click on the label next to each option for a description of what it does.
-                        Some features are hard to find anywhere though - for example, if your song has any modulator channels, you can hold Ctrl or Shift while the song is playing to record the movement of sliders directly! If you want to learn more tips, tricks, and best practices though, see below.
+                        Some features are hard to find anywhere though - for example, if your song has any modulator channels, you can hold Ctrl or Shift while the song is playing to record the movement of sliders directly. If you want to learn more tips, tricks, and best practices though, see below.
                     </p>
                     <p>
-						Want to see what people have made with BeepBox? Songs that were shared on Twitter prior to 2023-05-22 can now be browsed in <a href="https://twitter-archive.beepbox.co/" target="_blank">this interactive archive</a>!
+						DO you want to see what people have made before with BeepBox? Most songs that were shared on Twitter prior to 2023-05-22 are now located in <a href="https://twitter-archive.beepbox.co/" target="_blank">this interactive archive</a>.
                         <!-- Additionally, there's an active <a href="https://discord.gg/beepbox">BeepBox Discord</a> where you can share songs and ask questions! -->
                     </p>
                 </section>
@@ -323,7 +328,10 @@
                     <h2>
                         About
                     </h2>
-                    <p>
+					<p>
+						BlandBox is a modification of Slarmoo's Box, developed by thebloxer231. The easiest way to contact them is via their <a href="https://scratch.mit.edu/users/thebloxer231/" target="_blank">Scratch Account</a> (lol). You may also contact them via <a href="https://bsky.app/profile/thebloxer231.bsky.social" target="_blank">Bluesky</a>.
+					</p>
+					<p>
                         Slarmoo's Box is a mod of BeepBox developed by Slarmoo. The easiest way to contact the developers is via the <a href="https://discord.gg/Tc997TstJb" target="_blank">Beepbox Modding Discord</a>.<br><br>
                     </p>
                     <p>
@@ -336,7 +344,7 @@
                         Slarmoo's Box does not collect, track, or share any user data.
                     </p>
                     <p>
-                        You can download and use <a href="https://github.com/slarmoo/slarmoosbox" target="_blank">the source code</a> under the MIT license.
+                        You can download and use <a href="https://github.com/slarmoo/slarmoosbox" target="_blank">Slarmoo's Box's source code</a> under the MIT license.
                         The original BeepBox source code by John Nesky can be found <a href="https://github.com/johnnesky/beepbox" target="_blank">here</a>.
                     </p>
                     <p>
@@ -400,7 +408,10 @@
         "🪱",
         // I believe this is from paandorasbox (might have also been present in familiarbox???? maybe not though...)
         //slarmoo - changed to not wackybox, because it isn't :p
-        "not :wackybox:",
+		//thebloxer231 - changes to not Slarmoo's Box since it isn't (I'd never be able to make that anyways)
+        "not :Slarmoo's Box:",
+		//nvmd I like "not wackybox"
+		"not :wackybox:",
         // plant originally suggested by mel in reference to the "(don't) eat thegubbys" meme        
         "🐟",
         // blubox desktop plants 
@@ -410,7 +421,7 @@
         // Slarmoo's Box plants
         "✨","🌈","🌧️","🪨","🐍","🌲","🌳","𓆏","🦀","🍄‍🟫","🌵","and Bobby","🥚",
         //Current version
-        "1.4.9"
+        "1.0.0"
         ];
         const date = new Date();
         if (Math.floor(Math.random() * 3) == 0) { //more than doubled chance for a plant to show up
@@ -503,6 +514,7 @@
 		// If the page was loaded with an old song version that old versions of BeepBox support,
 		// update the links to the old versions so that they'll open the song.
 	    //HEY, ULTRABOX DOESN'T HAVE THESE, WHAT DO WE DO????
+		// O:    oh no
 		if (/^#[1-6]/.test(location.hash)) {
 			document.getElementById("linkTo2_3").href += location.hash;
 		}
