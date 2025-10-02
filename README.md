@@ -1,10 +1,11 @@
-# Slarmoo's Box
+# BlandBox
 
-Slarmoo's Box is an online tool for sketching and sharing instrumental music.
-You can find it [here](https://github.com/slarmoo/slarmoosbox/).
-It is a modification of [Ultrabox](https://ultraabox.github.io), which is a modification of [JummBox](https://github.com/jummbus/jummbox), which inturn is a modification of the [original BeepBox](https://beepbox.co).
+BlandBox is a boring tool for sketching and sharing instrumental music. Oh yeah, it's also online.
+You can Slarmoo's Box, its better predecessor [here](https://github.com/slarmoo/slarmoosbox/).
+Slarmoo's Box is a modification of [Ultrabox](https://ultraabox.github.io), which is a modification of [JummBox](https://github.com/jummbus/jummbox), which inturn is a modification of the [original BeepBox](https://beepbox.co). Which is a modification of... nothing, since it's the original.
 
 Slarmoo's Box is a mod of Ultrabox that aims to advance Beepbox's capabilities. Feel free to contribute!
+BlandBox, however, isn't any better than Slarmoo's Box - probably worse, in fact - so if you want to contribute, redirect yourself to Slarmoo's Box.
 
 
 All song data is packaged into the URL at the top of your browser. When you make
@@ -12,8 +13,12 @@ changes to the song, the URL is updated to reflect your changes. When you are
 satisfied with your song, just copy and paste the URL to save and share your
 song!
 
-Slarmoo's Box, as well as the beepmods which it's based on, are free projects. If you ever feel so inclined, please support the original creator, [John Nesky](http://www.johnnesky.com/), via
-[PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QZJTX9GRYEV9N&currency_code=USD)!
+Slarmoo's Box, as well as the beepmods which it's based on -  including BlandBox - are free projects. If you ever feel so inclined, please <i>please</i>support the original creator, [John Nesky](http://www.johnnesky.com/), via
+[PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QZJTX9GRYEV9N&currency_code=USD)! He has made so much for us, and is literally the core of this entire community. At least consider donating to him.
+
+<!-- Oh my gosh the remaining text under this is code
+O_O
+I'm not gonna edit it (or even try) -->
 
 ## Compiling
 
