@@ -1,7 +1,7 @@
 # BlandBox
 
 BlandBox is a boring tool for sketching and sharing instrumental music. Oh yeah, it's also online.
-You can Slarmoo's Box, its better predecessor [here](https://github.com/slarmoo/slarmoosbox/).
+You can check out Slarmoo's Box, BlandBox's better predecessor [here](https://github.com/slarmoo/slarmoosbox/).
 Slarmoo's Box is a modification of [Ultrabox](https://ultraabox.github.io), which is a modification of [JummBox](https://github.com/jummbus/jummbox), which inturn is a modification of the [original BeepBox](https://beepbox.co). Which is a modification of... nothing, since it's the original.
 
 Slarmoo's Box is a mod of Ultrabox that aims to advance Beepbox's capabilities. Feel free to contribute!
