@@ -13,7 +13,7 @@ changes to the song, the URL is updated to reflect your changes. When you are
 satisfied with your song, just copy and paste the URL to save and share your
 song!
 
-Slarmoo's Box, as well as the beepmods which it's based on -  including BlandBox - are free projects. If you ever feel so inclined, please <i>please</i>support the original creator, [John Nesky](http://www.johnnesky.com/), via
+Slarmoo's Box, as well as the beepmods which it's based on -  including BlandBox - are free projects. If you ever feel so inclined, please <i>please</i> support the original creator, [John Nesky](http://www.johnnesky.com/), via
 [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QZJTX9GRYEV9N&currency_code=USD)! He has made so much for us, and is literally the core of this entire community. At least consider donating to him.
 
 <!-- Oh my gosh the remaining text under this is code
